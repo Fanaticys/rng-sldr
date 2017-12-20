@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Range slider</title>
-</head>
+<link href="./css/rng-sldr.css" rel="stylesheet"></head>
 <body>
     <input class="price-start">
     <input class="price-end">
     <div class="rng-sldr price"></div>
+    <script type="text/javascript" src="js/rng-sldr.js"></script>
+    <script type="text/javascript">
+        rngSldr('price', {max: 100});
+    </script>
 </body>
 </html>
