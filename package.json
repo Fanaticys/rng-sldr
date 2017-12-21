@@ -1,8 +1,8 @@
 {
   "name": "rng-sldr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is an easy range slider",
-  "main": "dist/js/rng-sldr.js",
+  "main": "lib/js/rng-sldr.js",
   "scripts": {
     "start": "webpack-dev-server --env development",
     "clean": "rimraf lib",
